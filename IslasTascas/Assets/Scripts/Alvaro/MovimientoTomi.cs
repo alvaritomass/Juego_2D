@@ -22,4 +22,5 @@ public class MovimientoTomi : MonoBehaviour
          rb.velocity = new Vector2(moveX, moveY).normalized * velocidad * Time.deltaTime;
     }
 
+
 }
