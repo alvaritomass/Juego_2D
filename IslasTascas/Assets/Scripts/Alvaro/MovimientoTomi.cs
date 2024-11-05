@@ -12,7 +12,8 @@ public class MovimientoTomi : MonoBehaviour
     public Rigidbody2D rb;
 
     Animator animator;
-    bool IsAttacking;
+    
+    //bool IsAttacking;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -33,14 +34,20 @@ public class MovimientoTomi : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0)) 
         {
-            animator.Play("Ataque");
-            IsAttacking = true; 
+            //animator.Play("AtaqueNinja");
+            animator.SetBool("isAttacking", true);
+            Invoke("EndAnim", 0.5f);
+        }
+        if (Input.GetMouseButtonDown(2))
+        {
+            animator.SetBool("isShooting", true);
         }
     }
 
-    private void EndAttack()
+    private void EndAnim()
     {
-        IsAttacking = false;
+        animator.SetBool("isAttacking", false);
+        animator.SetBool("isShooting", false) ;
     }
     private void Animations()
     {
@@ -48,11 +55,15 @@ public class MovimientoTomi : MonoBehaviour
         animator.SetFloat("Vertical", moveY);
         if (moveY !=0)
         {
-            animator.Play("MovimientoStick");
+            //animator.Play("MovimientoStick");
+            animator.SetBool("isWalking", true);
+
         }
         if (moveX !=0)
         {
-            animator.Play("MovimientoStick");
+            //animator.Play("MovimientoStick");
+            animator.SetBool("isWalking", true);
+
 
             if (moveX < 0)
             {
@@ -63,12 +74,13 @@ public class MovimientoTomi : MonoBehaviour
                 gameObject.GetComponent<SpriteRenderer>().flipX = false;
 
             }
-
-
         }
         else
         {
-            animator.Play("Quieto");
+            animator.SetBool("isWalking", false);
+
+            //animator.Play("Quieto");
         }
     }
+    
 }
