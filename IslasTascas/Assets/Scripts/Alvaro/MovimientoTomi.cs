@@ -10,10 +10,11 @@ public class MovimientoTomi : MonoBehaviour
     float moveY;
     float moveX;
     public Rigidbody2D rb;
-
     Animator animator;
-    
-    //bool IsAttacking;
+    public float tiempoA = 0.5f;
+    public float tiempoS = 0.5f;
+    bool canAttack = true;
+    bool canShot = true;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -24,6 +25,7 @@ public class MovimientoTomi : MonoBehaviour
     {
         Movement();
         Animations();
+       
     }
 
     private void Movement()
@@ -32,23 +34,38 @@ public class MovimientoTomi : MonoBehaviour
         moveY = Input.GetAxis("Vertical");
         rb.velocity = new Vector2(moveX, moveY).normalized * velocidad * Time.deltaTime;
 
-        if (Input.GetMouseButtonDown(0)) 
+        if (Input.GetMouseButtonDown(0))
         {
-            //animator.Play("AtaqueNinja");
-            animator.SetBool("isAttacking", true);
-            Invoke("EndAnim", 0.5f);
+            if (canAttack)
+            {
+                //animator.Play("AtaqueNinja");
+                animator.SetBool("isAttacking", true);
+                Invoke("EndAnim", 0.5f);
+                canAttack = false;
+                Invoke("EsperaAtaque", tiempoA);
+            }
+
         }
-        if (Input.GetMouseButtonDown(2))
+         if (Input.GetMouseButtonDown(1))
         {
-            animator.SetBool("isShooting", true);
+
+            if (canShot)
+            {
+                animator.SetBool("isShooting", true);
+                Invoke("EndAnim", 0.5f);
+                canShot = false;
+                Invoke("EsperaShot", tiempoS);
+
+            }
         }
     }
-
     private void EndAnim()
     {
         animator.SetBool("isAttacking", false);
         animator.SetBool("isShooting", false) ;
     }
+
+    //Animaciones asociadas al movimiento y a los bool del animator
     private void Animations()
     {
         animator.SetFloat("Horizontal",moveX);
@@ -81,6 +98,16 @@ public class MovimientoTomi : MonoBehaviour
 
             //animator.Play("Quieto");
         }
+
+
     }
-    
+    public void EsperaAtaque()
+    {
+        canAttack = true;
+    }
+    public void EsperaShot()
+    {
+        canShot = true;
+    }
+
 }
