@@ -15,6 +15,7 @@ public class MovimientoTomi : MonoBehaviour
     public float tiempoS = 0.5f;
     bool canAttack = true;
     bool canShot = true;
+    public int damage = 10;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -85,6 +86,7 @@ public class MovimientoTomi : MonoBehaviour
             if (moveX < 0)
             {
                 gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                //gameObject.transform.localScale = 
             }
             else if (moveX > 0)
             {
@@ -100,6 +102,13 @@ public class MovimientoTomi : MonoBehaviour
         }
 
 
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Borraxo")
+        {
+            collision.gameObject.GetComponent<Enemy>().AnimaAttake();
+        }
     }
     public void EsperaAtaque()
     {
