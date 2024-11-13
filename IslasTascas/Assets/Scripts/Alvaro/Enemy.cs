@@ -27,7 +27,7 @@ public class Enemy : MonoBehaviour
 
     public void AnimaAttake()
     {
-
+        //animacion de enemigo pegando
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
