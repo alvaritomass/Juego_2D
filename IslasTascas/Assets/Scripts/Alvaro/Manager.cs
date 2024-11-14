@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private int vidas = 5;
+    public VidaTomi hud;
 
-    // Update is called once per frame
-    void Update()
+
+
+
+    public void PerderVida()
     {
-        
+        vidas = -1;
+        hud.DesactivarVida(vidas);
     }
 }

@@ -16,6 +16,7 @@ public class MovimientoTomi : MonoBehaviour
     bool canAttack = true;
     bool canShot = true;
     public int damage = 10;
+    public VidaTomi vidatomi;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -108,6 +109,7 @@ public class MovimientoTomi : MonoBehaviour
         if(collision.gameObject.tag == "Borraxo")
         {
             collision.gameObject.GetComponent<Enemy>().AnimaAttake();
+            vidatomi.DesactivarVida();
         }
     }
     public void EsperaAtaque()
