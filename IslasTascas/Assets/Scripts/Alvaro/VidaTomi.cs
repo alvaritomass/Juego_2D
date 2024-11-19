@@ -5,10 +5,10 @@ using UnityEngine;
 public class VidaTomi : MonoBehaviour
 {
     public GameObject[] vidas;
-    private int vida = 5;
+    //private int vida = 4;
 
 
-    public void DesactivarVida()
+    public void DesactivarVida(int indice)
     {
         vidas[indice].SetActive(false);
     }

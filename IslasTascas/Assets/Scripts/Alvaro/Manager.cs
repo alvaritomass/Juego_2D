@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
-    private int vidas = 5;
+    private int vidas = 4;
     public VidaTomi hud;
 
 
@@ -12,7 +12,22 @@ public class Manager : MonoBehaviour
 
     public void PerderVida()
     {
-        vidas = -1;
-        hud.DesactivarVida(vidas);
+        if (vidas > 0)
+        {
+            hud.DesactivarVida(vidas);
+            vidas -= 1;
+        }
+        //else con animacion muerte
+
+    }
+    
+    public void GanarVida()
+    {
+        if (vidas < 5)
+        {
+            vidas += 1;
+            hud.ActivarVida(vidas);
+        }
+        
     }
 }

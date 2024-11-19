@@ -16,10 +16,11 @@ public class MovimientoTomi : MonoBehaviour
     bool canAttack = true;
     bool canShot = true;
     public int damage = 10;
-    public VidaTomi vidatomi;
+    Manager gm;
     void Start()
     {
         animator = GetComponent<Animator>();
+        gm = GameObject.FindWithTag("GM").GetComponent<Manager>();
     }
 
     // Update is called once per frame
@@ -109,7 +110,13 @@ public class MovimientoTomi : MonoBehaviour
         if(collision.gameObject.tag == "Borraxo")
         {
             collision.gameObject.GetComponent<Enemy>().AnimaAttake();
-            vidatomi.DesactivarVida();
+            gm.PerderVida();
+        }
+
+        if (collision.gameObject.tag == "Beer")
+        {
+            gm.GanarVida();
+            Destroy(collision.gameObject);
         }
     }
     public void EsperaAtaque()

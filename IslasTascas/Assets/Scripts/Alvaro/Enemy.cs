@@ -31,6 +31,7 @@ public class Enemy : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //cuando el enemigo entra en las áreas area y botella perdera vida
         if(collision.gameObject.tag == "Area")
         {
             TakeDamage(20);
