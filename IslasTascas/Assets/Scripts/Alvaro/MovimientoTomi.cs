@@ -118,6 +118,11 @@ public class MovimientoTomi : MonoBehaviour
             gm.GanarVida();
             Destroy(collision.gameObject);
         }
+        if(collision.gameObject.tag == "Boss")
+        {
+            collision.gameObject.GetComponent<Boss>().AnimaAttake();
+            gm.PerderVida();
+        }
     }
     public void EsperaAtaque()
     {

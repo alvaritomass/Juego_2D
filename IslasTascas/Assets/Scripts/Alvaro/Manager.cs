@@ -17,7 +17,11 @@ public class Manager : MonoBehaviour
             hud.DesactivarVida(vidas);
             vidas -= 1;
         }
-        //else con animacion muerte
+        else
+        {
+            hud.DesactivarVida(vidas);
+            //animacion muerte
+        }
 
     }
     

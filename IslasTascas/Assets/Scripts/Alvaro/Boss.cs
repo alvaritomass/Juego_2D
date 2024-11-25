@@ -15,15 +15,23 @@ public class Boss : MonoBehaviour
     Seeker seeker;
     Rigidbody2D rb;
 
+    public Transform graficos;
+
     void Start()
     {
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
 
-        seeker.StartPath(rb.position, target.position, OnpathComplete);
+        InvokeRepeating("UpdatePath", 0f, .5f);
     }
 
-
+    void UpdatePath()
+    {
+        if (seeker.IsDone())
+        {
+            seeker.StartPath(rb.position, target.position, OnpathComplete);
+        }
+    }
     void OnpathComplete(Path p)
     {
         if (!p.error)
@@ -32,9 +40,13 @@ public class Boss : MonoBehaviour
             currentWayPoint = 0;
         }
     }
+    public void AnimaAttake()
+    {
+        //animacion de enemigo pegando
+    }
 
 
-    void Update()
+    void FixedUpdate()
     {
         if (path == null)
             return;
@@ -48,7 +60,25 @@ public class Boss : MonoBehaviour
             reachedEndOfPath = false;
         }
         Vector2 direction = ((Vector2)path.vectorPath[currentWayPoint]-rb.position).normalized;
-        //17:45
+        
+        Vector2 force = direction * speed* Time.deltaTime;
 
+        rb.AddForce(force);
+        float distance = Vector2.Distance(rb.position, path.vectorPath[currentWayPoint]);
+
+        if(distance < nextWaypointDistance)
+        {
+            currentWayPoint++;
+        }
+
+        if(rb.velocity.x >= 0.01f)
+        {
+            transform.localScale = new Vector3(-1f, 1f, 1f);
+        }
+        else if (rb.velocity.x <=-0.01f)
+        {
+             transform.localScale = new Vector3 (1f, 1f, 1f);
+        }
     }
+
 }
