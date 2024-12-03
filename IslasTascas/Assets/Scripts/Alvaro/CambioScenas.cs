@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CambioScenas : MonoBehaviour
 {
-    public int EscenaCambio;
+    public string EscenaCambio;
     public void CambiarTrigger()
     {
         SceneManager.LoadScene(EscenaCambio);
@@ -19,7 +19,7 @@ public class CambioScenas : MonoBehaviour
         }
     }
 
-    public void CambiarCanvas(int EscenaCambioCanvas)
+    public void CambiarCanvas(string EscenaCambioCanvas)
     {
         SceneManager.LoadScene(EscenaCambioCanvas);
     }

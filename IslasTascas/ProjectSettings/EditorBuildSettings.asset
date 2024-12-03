@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Juego/Isla Musik/Casa.unity
     guid: 02d7159fd9fcf204284a920d8df1ef1a
   - enabled: 1
+    path: Assets/Scenes/Juego/Isla Musik/Carta.unity
+    guid: db449ce4836348d409edfe2d527b194f
+  - enabled: 1
     path: Assets/Scenes/Juego/Isla Musik/Isla.unity
     guid: 4e192f045713199429222037f6eacbb8
   - enabled: 1
