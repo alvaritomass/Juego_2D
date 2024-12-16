@@ -582,7 +582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f88bd242a97647418538cf843877a88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EscenaCambio: 0
+  EscenaCambio: Isla
 --- !u!114 &1237273337
 MonoBehaviour:
   m_ObjectHideFlags: 0

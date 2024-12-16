@@ -9,6 +9,8 @@ TagManager:
   - GM
   - Beer
   - Boss
+  - portal1
+  - candado
   layers:
   - Default
   - TransparentFX
