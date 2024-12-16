@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 00977f85ba174e54798917cd6b5eaba3
+guid: 68e2f77615adef14ea71c985380d9f83
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tomi_Sprites_Trasero_Inf_0
+      name: Tomi_Sprites_Espaldas_Sup 2_0
       rect:
         serializedVersion: 2
-        x: 1178
-        y: 609
-        width: 203
-        height: 508
+        x: 1096
+        y: 1014
+        width: 351
+        height: 630
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,71 +124,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7336f7fd511d74043a97313a04875757
-      internalID: 657095649
+      spriteID: 16c1f6ed89c21ae47adf5ce3333a2437
+      internalID: 618750573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomi_Sprites_Trasero_Inf_1
+      name: Tomi_Sprites_Espaldas_Sup 2_1
       rect:
         serializedVersion: 2
-        x: 1730
-        y: 629
-        width: 200
-        height: 498
+        x: 1676
+        y: 1023
+        width: 353
+        height: 588
       alignment: 9
-      pivot: {x: 0.4982489, y: 0.48584402}
+      pivot: {x: 0.5563802, y: 0.51692396}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72bbf374c11f5af4099ea7c3116a39b0
-      internalID: 328207550
+      spriteID: 9ecf469f0d24ece40975d5647e3470cd
+      internalID: -2034517510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomi_Sprites_Trasero_Inf_2
+      name: Tomi_Sprites_Espaldas_Sup 2_2
       rect:
         serializedVersion: 2
-        x: 2271
-        y: 613
-        width: 204
-        height: 504
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3923203a7918d44ca138699a08c4344
-      internalID: -1225754109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tomi_Sprites_Trasero_Inf_4
-      rect:
-        serializedVersion: 2
-        x: 2764
-        y: 629
-        width: 201
-        height: 498
+        x: 2213
+        y: 1027
+        width: 344
+        height: 584
       alignment: 9
-      pivot: {x: 0.5000012, y: 0.48701286}
+      pivot: {x: 0.49036282, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e4f55d408c332b4993ffd837535bec6
-      internalID: -1697493773
+      spriteID: cc84d606d3db42a438012e71cf6af134
+      internalID: -686184726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomi_Sprites_Espaldas_Sup 2_3
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 1037
+        width: 346
+        height: 576
+      alignment: 9
+      pivot: {x: 0.52546966, y: 0.50917923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0260bdbf92343ac46b47820390b6c0c2
+      internalID: 156686702
       vertices: []
       indices: 
       edges: []
@@ -204,11 +204,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tomi_Sprites_Trasero_Inf_0: 657095649
-      Tomi_Sprites_Trasero_Inf_1: 328207550
-      Tomi_Sprites_Trasero_Inf_2: -1225754109
-      Tomi_Sprites_Trasero_Inf_3: -505388275
-      Tomi_Sprites_Trasero_Inf_4: -1697493773
+      Tomi_Sprites_Espaldas_Sup 2_0: 618750573
+      Tomi_Sprites_Espaldas_Sup 2_1: -2034517510
+      Tomi_Sprites_Espaldas_Sup 2_2: -686184726
+      Tomi_Sprites_Espaldas_Sup 2_3: 156686702
+      Tomi_Sprites_Espaldas_Sup 2_4: 238291001
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
