@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Juego/Inicio de partida.unity
+    guid: 66abf815b0c678d4ba3c45c4396ef1ba
+  - enabled: 1
     path: Assets/Scenes/Juego/Isla Musik/Casa.unity
     guid: 02d7159fd9fcf204284a920d8df1ef1a
   - enabled: 1
