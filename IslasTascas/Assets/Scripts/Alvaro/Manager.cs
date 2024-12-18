@@ -21,7 +21,7 @@ public class Manager : MonoBehaviour
         else
         {
             hud.DesactivarVida(vidas);
-            SceneManager.LoadScene("Final");
+            SceneManager.LoadScene("Muerte");
             //animacion muerte
         }
 

@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72faf60c5a0df2d4ca8921fdcdde147b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 800
+  velocidad: 1700
   rb: {fileID: 216334084}
   tiempoA: 1
   tiempoS: 1
