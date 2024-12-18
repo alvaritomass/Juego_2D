@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class Manager : MonoBehaviour
         else
         {
             hud.DesactivarVida(vidas);
+            SceneManager.LoadScene("Final");
             //animacion muerte
         }
 

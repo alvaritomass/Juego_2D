@@ -18,6 +18,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Juego/Isla Musik/Isla.unity
     guid: 4e192f045713199429222037f6eacbb8
   - enabled: 1
+    path: Assets/Scenes/Juego/Isla Menos Cuarto/Isla Menos Cuarto.unity
+    guid: b438deb6ba00e844890ea3b7d5f6d24c
+  - enabled: 1
     path: Assets/Scenes/EscenaAlvaro.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Juego/Isla Menos Cuarto/Bar.unity
+    guid: 718eb042f8bb46f4e87790d215631d49
+  - enabled: 1
+    path: Assets/Scenes/Juego/Final.unity
+    guid: 3a5aa86de5e582e4d9370bf4a568ae46
   m_configObjects: {}
