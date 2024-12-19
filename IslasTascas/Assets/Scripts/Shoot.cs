@@ -4,15 +4,33 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float tiempoDeVida = 5f; // Tiempo antes de que el proyectil se destruya
+    public int damage = 10; // Daño que inflige el proyectil
+
+    private void Start()
     {
-        
+        // Destruir el proyectil automáticamente después de un tiempo
+        Destroy(gameObject, tiempoDeVida);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        // Verificar colisión con enemigos
+        if (other.CompareTag("Borraxo") || other.CompareTag("Boss"))
+        {
+            // Lógica para infligir daño al enemigo
+            Enemy enemigo = other.GetComponent<Enemy>();
+            if (enemigo != null)
+            {
+                enemigo.TakeDamage(damage);
+            }
+
+            // Destruir el proyectil después del impacto
+            Destroy(gameObject);
+        }
+        else if (!other.CompareTag("Player")) // Evitar destruirse al chocar con el jugador
+        {
+            Destroy(gameObject);
+        }
     }
 }

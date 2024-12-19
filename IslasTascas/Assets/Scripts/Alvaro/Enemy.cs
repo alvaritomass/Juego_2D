@@ -34,9 +34,13 @@ public class Enemy : MonoBehaviour
         //cuando el enemigo entra en las áreas area y botella perdera vida
         if(collision.gameObject.tag == "Area")
         {
-            TakeDamage(20);
-            canHurt = false;
-            Invoke("EsperaDaño",tiempoD);
+            if(Input.GetMouseButton(0))
+            {
+                TakeDamage(20);
+                canHurt = false;
+                Invoke("EsperaDaño", tiempoD);
+            }
+            
         }
         if(collision.gameObject.tag == "Botella")
         {
