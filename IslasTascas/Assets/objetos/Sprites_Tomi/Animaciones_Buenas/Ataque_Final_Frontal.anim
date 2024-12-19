@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ataque_Frontal_Final
+  m_Name: Ataque_Final_Frontal
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -30,15 +30,15 @@ AnimationClip:
       value: {fileID: -1544509089, guid: 8a2fb76034883d340abb98da7c031094, type: 3}
     - time: 0.6666667
       value: {fileID: 2000211120, guid: 8a2fb76034883d340abb98da7c031094, type: 3}
-    - time: 0.75
-      value: {fileID: -1636062956, guid: 8a2fb76034883d340abb98da7c031094, type: 3}
     - time: 0.8333333
-      value: {fileID: 2000211120, guid: 8a2fb76034883d340abb98da7c031094, type: 3}
+      value: {fileID: -1636062956, guid: 8a2fb76034883d340abb98da7c031094, type: 3}
     - time: 0.9166667
-      value: {fileID: -1544509089, guid: 8a2fb76034883d340abb98da7c031094, type: 3}
+      value: {fileID: 2000211120, guid: 8a2fb76034883d340abb98da7c031094, type: 3}
     - time: 1
+      value: {fileID: -1544509089, guid: 8a2fb76034883d340abb98da7c031094, type: 3}
+    - time: 1.1666666
       value: {fileID: -1415965676, guid: 8a2fb76034883d340abb98da7c031094, type: 3}
-    - time: 1.0833334
+    - time: 1.3333334
       value: {fileID: 1658046813, guid: 8a2fb76034883d340abb98da7c031094, type: 3}
     attribute: m_Sprite
     path: 
@@ -77,7 +77,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.1666667
+    m_StopTime: 1.4166667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

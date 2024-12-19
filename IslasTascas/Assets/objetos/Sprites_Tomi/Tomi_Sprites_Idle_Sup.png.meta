@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b11ba022b493d447ac73f64edf3b537
+guid: c818b6141e033fe41ac8b4d1463d7344
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,10 +110,31 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Frontal_0
+      name: Tomi_Sprites_Idle_Sup_0
       rect:
         serializedVersion: 2
-        x: 998
+        x: 1160
+        y: 1041
+        width: 147
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0af7b97aceeed4b969cfcd58234e6d
+      internalID: 2093827050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomi_Sprites_Idle_Sup_1
+      rect:
+        serializedVersion: 2
+        x: 1471
         y: 1025
         width: 336
         height: 588
@@ -124,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46321a8cc12813749b8e5ba300a8b3e8
-      internalID: 1135473181
+      spriteID: d143ccddbbbd2d34a82fdbd2cf0befd7
+      internalID: 199896428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Frontal_1
+      name: Tomi_Sprites_Idle_Sup_3
       rect:
         serializedVersion: 2
-        x: 1432
-        y: 1107
-        width: 316
-        height: 506
+        x: 2018
+        y: 1041
+        width: 148
+        height: 568
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9672eab31db113148aedb092a592a13b
-      internalID: -1461396810
+      spriteID: 3b3a4b6d6d549b54f8f27483bddb3385
+      internalID: 108628353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Frontal_2
+      name: Tomi_Sprites_Idle_Sup_4
       rect:
         serializedVersion: 2
-        x: 1834
-        y: 1109
-        width: 297
-        height: 504
+        x: 2348
+        y: 1047
+        width: 332
+        height: 564
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,92 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1953146b8cbb6054186f6d179a628682
-      internalID: -956327303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Frontal_3
-      rect:
-        serializedVersion: 2
-        x: 2215
-        y: 1107
-        width: 316
-        height: 506
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cc08337c74e8a84e816fe3602fcaf3c
-      internalID: -754071488
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Frontal_4
-      rect:
-        serializedVersion: 2
-        x: 2602
-        y: 1096
-        width: 330
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 986bf7ec24fded344bac935262d729d1
-      internalID: -367750571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Frontal_5
-      rect:
-        serializedVersion: 2
-        x: 3016
-        y: 1096
-        width: 310
-        height: 517
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77104217a76e4d040abb9923bea69adf
-      internalID: 1735912722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Frontal_6
-      rect:
-        serializedVersion: 2
-        x: 3420
-        y: 1109
-        width: 309
-        height: 504
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0510ea7267aff54d82a50c353e9cde5
-      internalID: 1513382400
+      spriteID: 32547688f480ea04ead3dc7de0de379c
+      internalID: -1072881664
       vertices: []
       indices: 
       edges: []
@@ -267,30 +204,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tomi_Sprites_Ataques_Frontal_0: 1135473181
-      Tomi_Sprites_Ataques_Frontal_1: -1461396810
-      Tomi_Sprites_Ataques_Frontal_10: -327418013
-      Tomi_Sprites_Ataques_Frontal_11: -770033619
-      Tomi_Sprites_Ataques_Frontal_12: -1933096101
-      Tomi_Sprites_Ataques_Frontal_13: -1736644712
-      Tomi_Sprites_Ataques_Frontal_14: -528783661
-      Tomi_Sprites_Ataques_Frontal_15: 1771159974
-      Tomi_Sprites_Ataques_Frontal_16: 37327858
-      Tomi_Sprites_Ataques_Frontal_17: 446919719
-      Tomi_Sprites_Ataques_Frontal_18: -583889124
-      Tomi_Sprites_Ataques_Frontal_19: -930199970
-      Tomi_Sprites_Ataques_Frontal_2: -956327303
-      Tomi_Sprites_Ataques_Frontal_20: -243292442
-      Tomi_Sprites_Ataques_Frontal_21: 1588305147
-      Tomi_Sprites_Ataques_Frontal_22: 1776507588
-      Tomi_Sprites_Ataques_Frontal_23: -354186569
-      Tomi_Sprites_Ataques_Frontal_3: -754071488
-      Tomi_Sprites_Ataques_Frontal_4: -367750571
-      Tomi_Sprites_Ataques_Frontal_5: 1735912722
-      Tomi_Sprites_Ataques_Frontal_6: 1513382400
-      Tomi_Sprites_Ataques_Frontal_7: -2014736498
-      Tomi_Sprites_Ataques_Frontal_8: 303240562
-      Tomi_Sprites_Ataques_Frontal_9: -1360910021
+      Tomi_Sprites_Idle_Sup_0: 2093827050
+      Tomi_Sprites_Idle_Sup_1: 199896428
+      Tomi_Sprites_Idle_Sup_2: 1698141914
+      Tomi_Sprites_Idle_Sup_3: 108628353
+      Tomi_Sprites_Idle_Sup_4: -1072881664
+      Tomi_Sprites_Idle_Sup_5: 669647502
+      Tomi_Sprites_Idle_Sup_6: -1248750072
+      Tomi_Sprites_Idle_Sup_7: 1825154801
+      Tomi_Sprites_Idle_Sup_8: -802386217
+      Tomi_Sprites_Idle_Sup_9: -1130381233
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

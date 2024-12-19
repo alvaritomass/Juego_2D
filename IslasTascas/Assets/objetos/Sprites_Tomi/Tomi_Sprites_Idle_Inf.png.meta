@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8a2fb76034883d340abb98da7c031094
+guid: e2c92fbd272207342be25c7edb57e9ac
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,127 +110,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ataques_Frontal_Final_0
+      name: Tomi_Sprites_Idle_Inf_0
       rect:
         serializedVersion: 2
-        x: 998
-        y: 1025
-        width: 336
-        height: 588
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+        x: 1154
+        y: 646
+        width: 159
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc6043c2ba34702488a15d12af9ee167
-      internalID: -671997872
+      spriteID: 8c53ac78297daad419f68ef3e3fddeb7
+      internalID: 1164086329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataques_Frontal_Final_1
+      name: Tomi_Sprites_Idle_Inf_1
       rect:
         serializedVersion: 2
-        x: 1432
-        y: 1025
-        width: 316
-        height: 588
-      alignment: 9
-      pivot: {x: 0.46338972, y: 0.5}
+        x: 1537
+        y: 617
+        width: 201
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76b90972952ca1d439c1096c80eab4ad
-      internalID: 1658046813
+      spriteID: b9985d42cfded9a4bbff9886c738a6e3
+      internalID: -769450960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataques_Frontal_Final_2
+      name: Tomi_Sprites_Idle_Inf_2
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 1025
-        width: 307
-        height: 588
-      alignment: 9
-      pivot: {x: 0.45149672, y: 0.5}
+        x: 2014
+        y: 646
+        width: 158
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3f528be7a6a5d245af1523561ab7cad
-      internalID: -1415965676
+      spriteID: 3b4c49057e2734840a516b4a0a4c1f32
+      internalID: 2075883888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataques_Frontal_Final_3
+      name: Tomi_Sprites_Idle_Inf_3
       rect:
         serializedVersion: 2
-        x: 2213
-        y: 1025
-        width: 316
-        height: 588
-      alignment: 9
-      pivot: {x: 0.47629362, y: 0.5}
+        x: 2414
+        y: 637
+        width: 201
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd1caae6fe54ab8478ce9ae30d61caa1
-      internalID: -1544509089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ataques_Frontal_Final_5
-      rect:
-        serializedVersion: 2
-        x: 2631
-        y: 1025
-        width: 301
-        height: 588
-      alignment: 9
-      pivot: {x: 0.43594268, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab80666f06ac46345b325c513ed39e0e
-      internalID: 2000211120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ataques_Frontal_Final_6
-      rect:
-        serializedVersion: 2
-        x: 3441
-        y: 1025
-        width: 340
-        height: 588
-      alignment: 9
-      pivot: {x: 0.35513774, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee3fe69f2845fb74dada0cfc182a178e
-      internalID: -1636062956
+      spriteID: 84b9de7caae72be4ab4cbb297a34cc7d
+      internalID: -1499070329
       vertices: []
       indices: 
       edges: []
@@ -246,41 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ataques_Frontal_Final_0: -671997872
-      Ataques_Frontal_Final_1: 1658046813
-      Ataques_Frontal_Final_10: -1441528899
-      Ataques_Frontal_Final_11: -15632384
-      Ataques_Frontal_Final_12: -1294104523
-      Ataques_Frontal_Final_13: 609640073
-      Ataques_Frontal_Final_14: 457994903
-      Ataques_Frontal_Final_15: -206665203
-      Ataques_Frontal_Final_16: 764571334
-      Ataques_Frontal_Final_17: 566529210
-      Ataques_Frontal_Final_18: -534742772
-      Ataques_Frontal_Final_19: -2049052601
-      Ataques_Frontal_Final_2: -1415965676
-      Ataques_Frontal_Final_20: 1509509580
-      Ataques_Frontal_Final_21: 1761947620
-      Ataques_Frontal_Final_22: -2114404276
-      Ataques_Frontal_Final_23: -637340213
-      Ataques_Frontal_Final_24: 1422257512
-      Ataques_Frontal_Final_25: 1440234530
-      Ataques_Frontal_Final_26: -1529127204
-      Ataques_Frontal_Final_27: -1527260873
-      Ataques_Frontal_Final_28: -1902709126
-      Ataques_Frontal_Final_29: 1590059347
-      Ataques_Frontal_Final_3: -1544509089
-      Ataques_Frontal_Final_30: 664399475
-      Ataques_Frontal_Final_31: 627541910
-      Ataques_Frontal_Final_32: -1026987917
-      Ataques_Frontal_Final_33: 257872724
-      Ataques_Frontal_Final_34: 1991093580
-      Ataques_Frontal_Final_4: 60068088
-      Ataques_Frontal_Final_5: 2000211120
-      Ataques_Frontal_Final_6: -1636062956
-      Ataques_Frontal_Final_7: 477835006
-      Ataques_Frontal_Final_8: -957414837
-      Ataques_Frontal_Final_9: -859719428
+      Tomi_Sprites_Idle_Inf_0: 1164086329
+      Tomi_Sprites_Idle_Inf_1: -769450960
+      Tomi_Sprites_Idle_Inf_2: 2075883888
+      Tomi_Sprites_Idle_Inf_3: -1499070329
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

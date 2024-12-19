@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8a2fb76034883d340abb98da7c031094
+guid: 339317b3c24149a4cafd592a03e0ddea
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,127 +110,232 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ataques_Frontal_Final_0
+      name: Sprite_Finales_Mov_Izq_0
       rect:
         serializedVersion: 2
-        x: 998
-        y: 1025
-        width: 336
-        height: 588
-      alignment: 9
+        x: 92
+        y: 1045
+        width: 197
+        height: 562
+      alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc6043c2ba34702488a15d12af9ee167
-      internalID: -671997872
+      spriteID: 7b463fcf733fe6f4a892c28fe8104236
+      internalID: 559139328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataques_Frontal_Final_1
+      name: Sprite_Finales_Mov_Izq_1
       rect:
         serializedVersion: 2
-        x: 1432
-        y: 1025
-        width: 316
-        height: 588
-      alignment: 9
-      pivot: {x: 0.46338972, y: 0.5}
+        x: 420
+        y: 1045
+        width: 158
+        height: 562
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76b90972952ca1d439c1096c80eab4ad
-      internalID: 1658046813
+      spriteID: f224927e4945685438f64ac44e084876
+      internalID: 216371596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataques_Frontal_Final_2
+      name: Sprite_Finales_Mov_Izq_2
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 1025
-        width: 307
-        height: 588
-      alignment: 9
-      pivot: {x: 0.45149672, y: 0.5}
+        x: 670
+        y: 1043
+        width: 152
+        height: 564
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3f528be7a6a5d245af1523561ab7cad
-      internalID: -1415965676
+      spriteID: 0bebdaacb3e2dba44854562fdef73918
+      internalID: -1163968350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataques_Frontal_Final_3
+      name: Sprite_Finales_Mov_Izq_3
       rect:
         serializedVersion: 2
-        x: 2213
-        y: 1025
-        width: 316
-        height: 588
+        x: 1064
+        y: 1045
+        width: 174
+        height: 562
       alignment: 9
-      pivot: {x: 0.47629362, y: 0.5}
+      pivot: {x: 0.43905255, y: 0.4982845}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd1caae6fe54ab8478ce9ae30d61caa1
-      internalID: -1544509089
+      spriteID: 792767df74d30ef489fd097a0e31d06a
+      internalID: -1436886156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataques_Frontal_Final_5
+      name: Sprite_Finales_Mov_Izq_4
       rect:
         serializedVersion: 2
-        x: 2631
-        y: 1025
-        width: 301
-        height: 588
+        x: 1561
+        y: 1057
+        width: 203
+        height: 550
       alignment: 9
-      pivot: {x: 0.43594268, y: 0.5}
+      pivot: {x: 0.38603264, y: 0.5024745}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab80666f06ac46345b325c513ed39e0e
-      internalID: 2000211120
+      spriteID: 1b131015fa3675e4d91ab44c409b33f9
+      internalID: 349473871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ataques_Frontal_Final_6
+      name: Sprite_Finales_Mov_Izq_5
       rect:
         serializedVersion: 2
-        x: 3441
-        y: 1025
-        width: 340
-        height: 588
+        x: 2000
+        y: 1049
+        width: 178
+        height: 558
       alignment: 9
-      pivot: {x: 0.35513774, y: 0.5}
+      pivot: {x: 0.44835466, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee3fe69f2845fb74dada0cfc182a178e
-      internalID: -1636062956
+      spriteID: 451fdc180de20fc49ac22a64d2186ae3
+      internalID: -1267705116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Finales_Mov_Izq_6
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 1045
+        width: 157
+        height: 562
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24b32dca4a314040aad1df26e67eb17
+      internalID: 346779627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Finales_Mov_Izq_7
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 1041
+        width: 151
+        height: 566
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b434d9062573cbc46937cd55df0046fd
+      internalID: -2096870434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Finales_Mov_Izq_8
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 1041
+        width: 201
+        height: 566
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad9b57f81aa2374daee1fc8858c32da
+      internalID: -531798864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Finales_Mov_Izq_10
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 1055
+        width: 250
+        height: 552
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e73cce10fb8ea44288f783d62de9ce0
+      internalID: 1475546962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Finales_Mov_Izq_11
+      rect:
+        serializedVersion: 2
+        x: 3766
+        y: 1041
+        width: 152
+        height: 566
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d0f1f9a885cad47ab7d2b9d7f2c923
+      internalID: -1010806978
       vertices: []
       indices: 
       edges: []
@@ -246,41 +351,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ataques_Frontal_Final_0: -671997872
-      Ataques_Frontal_Final_1: 1658046813
-      Ataques_Frontal_Final_10: -1441528899
-      Ataques_Frontal_Final_11: -15632384
-      Ataques_Frontal_Final_12: -1294104523
-      Ataques_Frontal_Final_13: 609640073
-      Ataques_Frontal_Final_14: 457994903
-      Ataques_Frontal_Final_15: -206665203
-      Ataques_Frontal_Final_16: 764571334
-      Ataques_Frontal_Final_17: 566529210
-      Ataques_Frontal_Final_18: -534742772
-      Ataques_Frontal_Final_19: -2049052601
-      Ataques_Frontal_Final_2: -1415965676
-      Ataques_Frontal_Final_20: 1509509580
-      Ataques_Frontal_Final_21: 1761947620
-      Ataques_Frontal_Final_22: -2114404276
-      Ataques_Frontal_Final_23: -637340213
-      Ataques_Frontal_Final_24: 1422257512
-      Ataques_Frontal_Final_25: 1440234530
-      Ataques_Frontal_Final_26: -1529127204
-      Ataques_Frontal_Final_27: -1527260873
-      Ataques_Frontal_Final_28: -1902709126
-      Ataques_Frontal_Final_29: 1590059347
-      Ataques_Frontal_Final_3: -1544509089
-      Ataques_Frontal_Final_30: 664399475
-      Ataques_Frontal_Final_31: 627541910
-      Ataques_Frontal_Final_32: -1026987917
-      Ataques_Frontal_Final_33: 257872724
-      Ataques_Frontal_Final_34: 1991093580
-      Ataques_Frontal_Final_4: 60068088
-      Ataques_Frontal_Final_5: 2000211120
-      Ataques_Frontal_Final_6: -1636062956
-      Ataques_Frontal_Final_7: 477835006
-      Ataques_Frontal_Final_8: -957414837
-      Ataques_Frontal_Final_9: -859719428
+      Sprite_Finales_Mov_Izq_0: 559139328
+      Sprite_Finales_Mov_Izq_1: 216371596
+      Sprite_Finales_Mov_Izq_10: 1475546962
+      Sprite_Finales_Mov_Izq_11: -1010806978
+      Sprite_Finales_Mov_Izq_12: 1198727284
+      Sprite_Finales_Mov_Izq_13: 282025677
+      Sprite_Finales_Mov_Izq_2: -1163968350
+      Sprite_Finales_Mov_Izq_3: -1436886156
+      Sprite_Finales_Mov_Izq_4: 349473871
+      Sprite_Finales_Mov_Izq_5: -1267705116
+      Sprite_Finales_Mov_Izq_6: 346779627
+      Sprite_Finales_Mov_Izq_7: -2096870434
+      Sprite_Finales_Mov_Izq_8: -531798864
+      Sprite_Finales_Mov_Izq_9: 779696250
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

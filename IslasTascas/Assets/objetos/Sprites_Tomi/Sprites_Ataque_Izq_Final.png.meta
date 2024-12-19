@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cdc736c7902de9440ae701a12b83628c
+guid: 12493ec40feef9d4294d315a55ad0d63
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -94,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,232 +110,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PERSONAJES 9.1_0
+      name: Sprites_Ataque_Izq_Final_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1068
-        width: 1018
-        height: 1983
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4d8bbe7d27e9cb4da482d0b263e52cb
-      internalID: -875797292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PERSONAJES 9.1_1
-      rect:
-        serializedVersion: 2
-        x: 1045
-        y: 1076
-        width: 764
-        height: 1975
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c1b3759f427e7247843e86e86a4d9f5
-      internalID: -468933973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PERSONAJES 9.1_2
-      rect:
-        serializedVersion: 2
-        x: 1725
-        y: 1075
-        width: 527
-        height: 1976
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c3ad55ba9a6a17429a40f2d936e23e5
-      internalID: 1825788458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PERSONAJES 9.1_3
-      rect:
-        serializedVersion: 2
-        x: 2355
+        x: 350
         y: 1070
-        width: 386
-        height: 1981
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 197
+        height: 494
+      alignment: 9
+      pivot: {x: 0.7877366, y: 0.4261153}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09e94cec6067e7f47837609ba2a80910
-      internalID: 849156527
+      spriteID: 445bbd152bfe5f14c8afcabb260e7661
+      internalID: -1115885576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PERSONAJES 9.1_4
+      name: Sprites_Ataque_Izq_Final_2
       rect:
         serializedVersion: 2
-        x: 2783
-        y: 1053
-        width: 542
-        height: 1998
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 591
+        y: 1073
+        width: 301
+        height: 492
+      alignment: 9
+      pivot: {x: 0.86622167, y: 0.4261153}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6cb3e33e0c985940a9bae83ed9c798f
-      internalID: 992382908
+      spriteID: 4d129ef9fd0bee0409487ba0c0e70ce5
+      internalID: 631680655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PERSONAJES 9.1_5
+      name: Sprites_Ataque_Izq_Final_3
       rect:
         serializedVersion: 2
-        x: 3372
-        y: 1053
-        width: 718
-        height: 1998
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 920
+        y: 1070
+        width: 318
+        height: 494
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4261153}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc376bf710b03554d9ac6e2271c98dd8
-      internalID: -564994740
+      spriteID: 67a052cc1687c844ea4ddc1e401df310
+      internalID: 573639069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PERSONAJES 9.1_6
+      name: Sprites_Ataque_Izq_Final_4
       rect:
         serializedVersion: 2
-        x: 4158
-        y: 1079
-        width: 978
-        height: 1972
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1301
+        y: 1070
+        width: 240
+        height: 494
+      alignment: 9
+      pivot: {x: 0.81992745, y: 0.4261153}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cc88369db5fa774a9590cd8f0799737
-      internalID: -1246720699
+      spriteID: 6f96fc8d99cf05a43846dd6fd6992036
+      internalID: 19270709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PERSONAJES 9.1_7
+      name: Sprites_Ataque_Izq_Final_5
       rect:
         serializedVersion: 2
-        x: 5232
-        y: 1056
-        width: 775
-        height: 1995
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1582
+        y: 1070
+        width: 203
+        height: 494
+      alignment: 9
+      pivot: {x: 0.801477, y: 0.4261153}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bea62d91374505f479f611374b6dca0d
-      internalID: 656357771
+      spriteID: 031b3414fbcb4b846aa7a745f4e6d2f7
+      internalID: 1029201838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PERSONAJES 9.1_8
+      name: Sprites_Ataque_Izq_Final_6
       rect:
         serializedVersion: 2
-        x: 6094
-        y: 1083
-        width: 536
-        height: 1968
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1910
+        y: 1070
+        width: 199
+        height: 494
+      alignment: 9
+      pivot: {x: 0.65045136, y: 0.4261153}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3ac401df6ad8da4cb407e66069b9603
-      internalID: 92556060
+      spriteID: 327040adb2fc81d429f8fb2c3c64d8ff
+      internalID: -73912875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PERSONAJES 9.1_9
+      name: Sprites_Ataque_Izq_Final_7
       rect:
         serializedVersion: 2
-        x: 6722
-        y: 1083
-        width: 504
-        height: 1968
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2176
+        y: 1070
+        width: 201
+        height: 494
+      alignment: 9
+      pivot: {x: 0.5295204, y: 0.4261153}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ab4681f1569c244895a5d02b3653705
-      internalID: 818610559
+      spriteID: 407c5dee46955c54599332740ac850d1
+      internalID: 1287986145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PERSONAJES 9.1_10
+      name: Sprites_Ataque_Izq_Final_8
       rect:
         serializedVersion: 2
-        x: 7303
-        y: 1091
-        width: 521
-        height: 1960
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2471
+        y: 1070
+        width: 211
+        height: 494
+      alignment: 9
+      pivot: {x: 0.5153265, y: 0.4261153}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 947f24b0caf482b40818341c791e794b
-      internalID: 1532138262
+      spriteID: 3353c9a8287e6ce44bd131e76b6900fd
+      internalID: 869835863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Ataque_Izq_Final_9
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 1070
+        width: 209
+        height: 494
+      alignment: 9
+      pivot: {x: 0.498548, y: 0.42611533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aec08bc6d7356c4b87dd6b9493f0ecc
+      internalID: 1306054192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Ataque_Izq_Final_10
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 994
+        width: 156
+        height: 568
+      alignment: 9
+      pivot: {x: 0.68270326, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45ab147f501e8d45895fd252480ebb7
+      internalID: -479147117
       vertices: []
       indices: 
       edges: []
@@ -351,17 +330,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PERSONAJES 9.1_0: -875797292
-      PERSONAJES 9.1_1: -468933973
-      PERSONAJES 9.1_10: 1532138262
-      PERSONAJES 9.1_2: 1825788458
-      PERSONAJES 9.1_3: 849156527
-      PERSONAJES 9.1_4: 992382908
-      PERSONAJES 9.1_5: -564994740
-      PERSONAJES 9.1_6: -1246720699
-      PERSONAJES 9.1_7: 656357771
-      PERSONAJES 9.1_8: 92556060
-      PERSONAJES 9.1_9: 818610559
+      Sprites_Ataque_Izq_Final_0: -323465364
+      Sprites_Ataque_Izq_Final_1: -1115885576
+      Sprites_Ataque_Izq_Final_10: -479147117
+      Sprites_Ataque_Izq_Final_11: -588544896
+      Sprites_Ataque_Izq_Final_12: 1923827196
+      Sprites_Ataque_Izq_Final_13: -2034945439
+      Sprites_Ataque_Izq_Final_14: 859318815
+      Sprites_Ataque_Izq_Final_15: -419854851
+      Sprites_Ataque_Izq_Final_16: -905385484
+      Sprites_Ataque_Izq_Final_17: 1221872806
+      Sprites_Ataque_Izq_Final_18: 736594017
+      Sprites_Ataque_Izq_Final_19: -1005821098
+      Sprites_Ataque_Izq_Final_2: 631680655
+      Sprites_Ataque_Izq_Final_20: -2062998143
+      Sprites_Ataque_Izq_Final_21: 586784682
+      Sprites_Ataque_Izq_Final_22: 1497963001
+      Sprites_Ataque_Izq_Final_23: 1977836025
+      Sprites_Ataque_Izq_Final_24: -118968496
+      Sprites_Ataque_Izq_Final_3: 573639069
+      Sprites_Ataque_Izq_Final_4: 19270709
+      Sprites_Ataque_Izq_Final_5: 1029201838
+      Sprites_Ataque_Izq_Final_6: -73912875
+      Sprites_Ataque_Izq_Final_7: 1287986145
+      Sprites_Ataque_Izq_Final_8: 869835863
+      Sprites_Ataque_Izq_Final_9: 1306054192
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
