@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 7ebfa364de6edb542a7ce1646c221e1e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tomi_Sprites_Ataques_Frontal (1)_0
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1025
+        width: 336
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5e4f06d81354648ac41035f9cfdb02
+      internalID: -1436821861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomi_Sprites_Ataques_Frontal (1)_1
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1107
+        width: 316
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae572160814afed408b414a2e3527601
+      internalID: 681690036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomi_Sprites_Ataques_Frontal (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 1105
+        width: 307
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c69da63aaa742e4cbfd43de03b9c32b
+      internalID: 682090974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomi_Sprites_Ataques_Frontal (1)_4
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 1107
+        width: 316
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae664c508fe70a24584fb9fe6939ded0
+      internalID: -830761731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomi_Sprites_Ataques_Frontal (1)_5
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 1096
+        width: 330
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bdce8453632af4eb53c0b19428abf0
+      internalID: 1795532164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomi_Sprites_Ataques_Frontal (1)_6
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 1098
+        width: 297
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8f964b2ee48b54c8fb77a156b8a02d
+      internalID: 1013728329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomi_Sprites_Ataques_Frontal (1)_7
+      rect:
+        serializedVersion: 2
+        x: 3441
+        y: 1109
+        width: 288
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e463143f1f7f09542a9138affc758647
+      internalID: -381622678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tomi_Sprites_Ataques_Frontal (1)_0: -1436821861
+      Tomi_Sprites_Ataques_Frontal (1)_1: 681690036
+      Tomi_Sprites_Ataques_Frontal (1)_10: 1891446069
+      Tomi_Sprites_Ataques_Frontal (1)_11: 705312433
+      Tomi_Sprites_Ataques_Frontal (1)_12: 440601641
+      Tomi_Sprites_Ataques_Frontal (1)_13: -1836086252
+      Tomi_Sprites_Ataques_Frontal (1)_14: 1947977863
+      Tomi_Sprites_Ataques_Frontal (1)_15: 327132260
+      Tomi_Sprites_Ataques_Frontal (1)_16: 571423721
+      Tomi_Sprites_Ataques_Frontal (1)_17: -556481103
+      Tomi_Sprites_Ataques_Frontal (1)_18: 1224429491
+      Tomi_Sprites_Ataques_Frontal (1)_19: -130056767
+      Tomi_Sprites_Ataques_Frontal (1)_2: 682090974
+      Tomi_Sprites_Ataques_Frontal (1)_20: 66774173
+      Tomi_Sprites_Ataques_Frontal (1)_21: 2022065841
+      Tomi_Sprites_Ataques_Frontal (1)_22: -1625463178
+      Tomi_Sprites_Ataques_Frontal (1)_23: 239890705
+      Tomi_Sprites_Ataques_Frontal (1)_24: -1417894034
+      Tomi_Sprites_Ataques_Frontal (1)_25: -1193797652
+      Tomi_Sprites_Ataques_Frontal (1)_26: 1661163146
+      Tomi_Sprites_Ataques_Frontal (1)_27: -777322417
+      Tomi_Sprites_Ataques_Frontal (1)_28: 1278487239
+      Tomi_Sprites_Ataques_Frontal (1)_29: -1407731989
+      Tomi_Sprites_Ataques_Frontal (1)_3: 861893249
+      Tomi_Sprites_Ataques_Frontal (1)_30: -1600733190
+      Tomi_Sprites_Ataques_Frontal (1)_31: 754695022
+      Tomi_Sprites_Ataques_Frontal (1)_32: 737260264
+      Tomi_Sprites_Ataques_Frontal (1)_4: -830761731
+      Tomi_Sprites_Ataques_Frontal (1)_5: 1795532164
+      Tomi_Sprites_Ataques_Frontal (1)_6: 1013728329
+      Tomi_Sprites_Ataques_Frontal (1)_7: -381622678
+      Tomi_Sprites_Ataques_Frontal (1)_8: -158768128
+      Tomi_Sprites_Ataques_Frontal (1)_9: -799065751
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

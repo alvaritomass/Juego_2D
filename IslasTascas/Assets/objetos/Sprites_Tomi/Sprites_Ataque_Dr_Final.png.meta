@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e075c9800ee903d418dc749c80aa1573
+guid: 672e1b26316857a4eb0bea4d1be5297c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Dr_0
+      name: Sprites_Ataque_Dr_Final_0
       rect:
         serializedVersion: 2
-        x: 72
-        y: 1070
-        width: 211
-        height: 494
+        x: 668
+        y: 994
+        width: 156
+        height: 568
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,176 +124,197 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 215ca4235f65e884d921b974acaf996e
-      internalID: 177424124
+      spriteID: feb3c93ea59f82249b6da301290d0af8
+      internalID: -77058690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Dr_1
+      name: Sprites_Ataque_Dr_Final_1
       rect:
         serializedVersion: 2
-        x: 291
+        x: 861
         y: 1070
-        width: 213
+        width: 207
         height: 494
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.62008977, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c33af5bfbb56d9048891e978964ba138
-      internalID: -853766002
+      spriteID: 36bb734e9e374f2479adcdd6fc5b30c1
+      internalID: -1765286590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Dr_2
+      name: Sprites_Ataque_Dr_Final_2
       rect:
         serializedVersion: 2
-        x: 586
+        x: 1080
+        y: 1070
+        width: 254
+        height: 494
+      alignment: 9
+      pivot: {x: 0.5116433, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7c94e123b5b1642a963351c68275f3
+      internalID: -465116361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Ataque_Dr_Final_3
+      rect:
+        serializedVersion: 2
+        x: 1383
         y: 1072
-        width: 213
+        width: 201
         height: 492
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.60599285, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8757079aecf33fa429882791f5da3889
-      internalID: -224412285
+      spriteID: fc27142a563f59b4a9b9ba15efaee499
+      internalID: 1031506650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Dr_3
+      name: Sprites_Ataque_Dr_Final_4
       rect:
         serializedVersion: 2
-        x: 865
+        x: 1650
         y: 1070
-        width: 180
+        width: 200
         height: 494
       alignment: 9
-      pivot: {x: 0.39592794, y: 0.5}
+      pivot: {x: 0.5060559, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e66990bbbe3ab1478c52273423dfe15
-      internalID: -389855445
+      spriteID: 7e49dac28b5245f488e99f65f966847a
+      internalID: 1575647740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Dr_4
+      name: Sprites_Ataque_Dr_Final_5
       rect:
         serializedVersion: 2
-        x: 1170
+        x: 1975
         y: 1070
-        width: 170
+        width: 203
         height: 494
       alignment: 9
-      pivot: {x: 0.35899946, y: 0.4991025}
+      pivot: {x: 0.35329673, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a67bffc897bb7f43879600d5ef06834
-      internalID: 1041029871
+      spriteID: aa66c4915ec10894b95214beda6f46de
+      internalID: 1493516845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Dr_5
+      name: Sprites_Ataque_Dr_Final_6
       rect:
         serializedVersion: 2
-        x: 1412
-        y: 1070
-        width: 182
+        x: 2219
+        y: 1069
+        width: 240
         height: 494
       alignment: 9
-      pivot: {x: 0.34079885, y: 0.50083697}
+      pivot: {x: 0.29021505, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b181c1d5e7d0654bb904ef79a3d4790
-      internalID: -1738219558
+      spriteID: 0c782a20f32966d40b39ab2dd3787164
+      internalID: -115759270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Dr_6
+      name: Sprites_Ataque_Dr_Final_7
       rect:
         serializedVersion: 2
-        x: 1715
+        x: 2521
         y: 1070
+        width: 319
+        height: 494
+      alignment: 9
+      pivot: {x: 0.22211516, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16966a4972dba314bbbcccd72094281a
+      internalID: -1128377433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Ataque_Dr_Final_8
+      rect:
+        serializedVersion: 2
+        x: 2867
+        y: 1072
         width: 301
-        height: 494
+        height: 492
       alignment: 9
-      pivot: {x: 0.1989227, y: 0.51561314}
+      pivot: {x: 0.23038359, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 089b4ff2e1785a1419ace0743baa54e1
-      internalID: 1264223128
+      spriteID: 23a8601961bd50c45b8f1420689dd310
+      internalID: -331814269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Dr_7
+      name: Sprites_Ataque_Dr_Final_9
       rect:
         serializedVersion: 2
-        x: 2063
+        x: 3237
         y: 1070
-        width: 285
+        width: 205
         height: 494
       alignment: 9
-      pivot: {x: 0.20221525, y: 0.49397135}
+      pivot: {x: 0.3462188, y: 0.42}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca5d4c6afd83c0d47ab09d7e9c23298a
-      internalID: -1894198679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tomi_Sprites_Ataques_Dr_8
-      rect:
-        serializedVersion: 2
-        x: 2432
-        y: 1070
-        width: 218
-        height: 494
-      alignment: 9
-      pivot: {x: 0.29168534, y: 0.500001}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40be7209ca693c648980589c74bedd87
-      internalID: 433916135
+      spriteID: 651698c0ac53707498bf22ba7be0a22a
+      internalID: 163569054
       vertices: []
       indices: 
       edges: []
@@ -309,28 +330,29 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tomi_Sprites_Ataques_Dr_0: 177424124
-      Tomi_Sprites_Ataques_Dr_1: -853766002
-      Tomi_Sprites_Ataques_Dr_10: -1255337285
-      Tomi_Sprites_Ataques_Dr_11: -1703223932
-      Tomi_Sprites_Ataques_Dr_12: 711919546
-      Tomi_Sprites_Ataques_Dr_13: -1797760147
-      Tomi_Sprites_Ataques_Dr_14: -1736973683
-      Tomi_Sprites_Ataques_Dr_15: 1269108551
-      Tomi_Sprites_Ataques_Dr_16: -108907017
-      Tomi_Sprites_Ataques_Dr_17: 874131867
-      Tomi_Sprites_Ataques_Dr_18: -616100384
-      Tomi_Sprites_Ataques_Dr_19: -1643028930
-      Tomi_Sprites_Ataques_Dr_2: -224412285
-      Tomi_Sprites_Ataques_Dr_20: -634071075
-      Tomi_Sprites_Ataques_Dr_21: 1826164716
-      Tomi_Sprites_Ataques_Dr_3: -389855445
-      Tomi_Sprites_Ataques_Dr_4: 1041029871
-      Tomi_Sprites_Ataques_Dr_5: -1738219558
-      Tomi_Sprites_Ataques_Dr_6: 1264223128
-      Tomi_Sprites_Ataques_Dr_7: -1894198679
-      Tomi_Sprites_Ataques_Dr_8: 433916135
-      Tomi_Sprites_Ataques_Dr_9: -571758873
+      Sprites_Ataque_Dr_Final_0: -77058690
+      Sprites_Ataque_Dr_Final_1: -1765286590
+      Sprites_Ataque_Dr_Final_10: 1170162824
+      Sprites_Ataque_Dr_Final_11: -686741871
+      Sprites_Ataque_Dr_Final_12: 434259713
+      Sprites_Ataque_Dr_Final_13: 1772479114
+      Sprites_Ataque_Dr_Final_14: -1243007014
+      Sprites_Ataque_Dr_Final_15: -1746951812
+      Sprites_Ataque_Dr_Final_16: 219746919
+      Sprites_Ataque_Dr_Final_17: -1866928265
+      Sprites_Ataque_Dr_Final_18: -526557697
+      Sprites_Ataque_Dr_Final_19: 1847808168
+      Sprites_Ataque_Dr_Final_2: -465116361
+      Sprites_Ataque_Dr_Final_20: -1291166573
+      Sprites_Ataque_Dr_Final_21: 662344175
+      Sprites_Ataque_Dr_Final_22: -972747331
+      Sprites_Ataque_Dr_Final_3: 1031506650
+      Sprites_Ataque_Dr_Final_4: 1575647740
+      Sprites_Ataque_Dr_Final_5: 1493516845
+      Sprites_Ataque_Dr_Final_6: -115759270
+      Sprites_Ataque_Dr_Final_7: -1128377433
+      Sprites_Ataque_Dr_Final_8: -331814269
+      Sprites_Ataque_Dr_Final_9: 163569054
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
