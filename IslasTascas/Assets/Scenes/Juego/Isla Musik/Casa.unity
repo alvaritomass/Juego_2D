@@ -504,11 +504,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72faf60c5a0df2d4ca8921fdcdde147b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 1500
+  velocidad: 2500
   rb: {fileID: 397239775}
   tiempoA: 1
   tiempoS: 1
   damage: 10
+  puntoDisparo: {fileID: 0}
+  proyectilPrefab: {fileID: 0}
+  origenDisparo: {fileID: 0}
+  velocidadDisparo: 5
 --- !u!4 &397239778
 Transform:
   m_ObjectHideFlags: 0
@@ -966,13 +970,13 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -14.105121, y: -1.9934989}
-  - {x: -13.491899, y: -1.001932}
-  - {x: -12.936795, y: -0.6258247}
-  - {x: -12.244576, y: -0.7055061}
-  - {x: -11.481301, y: -1.1181797}
-  - {x: -10.217626, y: -1.6967025}
-  - {x: -9.567723, y: -2.019075}
+  - {x: -12.868072, y: -4.351623}
+  - {x: -12.692971, y: -4.0172386}
+  - {x: -12.524446, y: -3.6153595}
+  - {x: -12.205918, y: -2.999201}
+  - {x: -11.854993, y: -2.5871754}
+  - {x: -10.617089, y: -2.817778}
+  - {x: -9.838328, y: -2.9597473}
   - {x: -9.352677, y: -3.1839643}
   - {x: -8.981284, y: -3.510637}
   - {x: -9.023949, y: -4.2220635}
@@ -984,11 +988,11 @@ EdgeCollider2D:
   - {x: -10.590363, y: -8.181644}
   - {x: -10.941143, y: -8.037203}
   - {x: -13.458039, y: -6.3948135}
-  - {x: -14.533136, y: -4.7503524}
-  - {x: -14.662124, y: -4.1603303}
-  - {x: -14.654017, y: -3.5338247}
-  - {x: -14.3411045, y: -2.4840364}
-  - {x: -14.129828, y: -2.0738397}
+  - {x: -13.424948, y: -6.0518317}
+  - {x: -13.618363, y: -5.487581}
+  - {x: -13.584487, y: -5.144566}
+  - {x: -13.142714, y: -5.0998793}
+  - {x: -12.995868, y: -4.522166}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -1306,6 +1310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EscenaCambio: 1
+  abierto: 1
 --- !u!61 &1993886985
 BoxCollider2D:
   m_ObjectHideFlags: 0

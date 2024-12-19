@@ -3126,6 +3126,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Size.x
+      value: 14.271156
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Offset.x
+      value: 1.5080547
+      objectReference: {fileID: 0}
     - target: {fileID: 3945421711876293305, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
       propertyPath: m_Name
       value: cerveza (1)
@@ -3443,6 +3451,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Size.x
+      value: 15.63516
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.000030755997
+      objectReference: {fileID: 0}
     - target: {fileID: 3945421711876293305, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
       propertyPath: m_Name
       value: cerveza (3)
@@ -4676,7 +4692,7 @@ Transform:
   m_GameObject: {fileID: 952300413}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.7334673, y: -1.27, z: 0.0693389}
+  m_LocalPosition: {x: 1.7334673, y: -1.25, z: 0.0693389}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5262,7 +5278,7 @@ Transform:
   m_GameObject: {fileID: 1188872285}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.23, y: -0.72, z: -0.013649677}
+  m_LocalPosition: {x: -2.23, y: -0.78, z: -0.013649677}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5805,7 +5821,7 @@ Transform:
   m_GameObject: {fileID: 1229751239}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.7334673, y: -1.0970068, z: 0.0693389}
+  m_LocalPosition: {x: 1.7334673, y: -1.16, z: 0.0693389}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6608,7 +6624,7 @@ Transform:
   m_GameObject: {fileID: 1345104830}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.47, y: -0.46, z: -0.013649677}
+  m_LocalPosition: {x: -5.47, y: -0.59, z: -0.013649677}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6822,7 +6838,7 @@ Transform:
   m_GameObject: {fileID: 1377667701}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.06721264, y: -0.75, z: -0.013649677}
+  m_LocalPosition: {x: -0.06721264, y: -0.8499999, z: -0.013649677}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7241,7 +7257,7 @@ Transform:
   m_GameObject: {fileID: 1461173555}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.68, y: 0.16, z: -0.013649677}
+  m_LocalPosition: {x: -3.68, y: 0.11, z: -0.013649677}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7552,7 +7568,7 @@ Transform:
   m_GameObject: {fileID: 1710106484}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.06, y: -0.46, z: -0.013649677}
+  m_LocalPosition: {x: -4.06, y: -0.52000046, z: -0.013649677}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8062,7 +8078,7 @@ Transform:
   m_GameObject: {fileID: 1931011291}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.16, y: 0.24, z: -0.013649677}
+  m_LocalPosition: {x: -0.16, y: 0.14, z: -0.013649677}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8258,6 +8274,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Size.x
+      value: 17.001095
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.6829505
+      objectReference: {fileID: 0}
     - target: {fileID: 3945421711876293305, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
       propertyPath: m_Name
       value: cerveza (2)
@@ -9338,6 +9362,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Size.x
+      value: 15.164556
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Offset.x
+      value: 1.4663157
+      objectReference: {fileID: 0}
     - target: {fileID: 3945421711876293305, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
       propertyPath: m_Name
       value: cerveza
@@ -9438,6 +9470,10 @@ PrefabInstance:
     - target: {fileID: 8792866389128308420, guid: 407d88a396b5cf44080ff6bd1cb063dc, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966600568401910330, guid: 407d88a396b5cf44080ff6bd1cb063dc, type: 3}
+      propertyPath: velocidad
+      value: 800
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

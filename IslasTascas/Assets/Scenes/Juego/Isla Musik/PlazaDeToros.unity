@@ -413,11 +413,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72faf60c5a0df2d4ca8921fdcdde147b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 1700
+  velocidad: 3500
   rb: {fileID: 216334084}
   tiempoA: 1
   tiempoS: 1
   damage: 10
+  puntoDisparo: {fileID: 0}
+  proyectilPrefab: {fileID: 0}
+  origenDisparo: {fileID: 0}
+  velocidadDisparo: 5
 --- !u!4 &216334087
 Transform:
   m_ObjectHideFlags: 0

@@ -994,6 +994,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Size.x
+      value: 18.482014
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.48978233
+      objectReference: {fileID: 0}
     - target: {fileID: 3945421711876293305, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
       propertyPath: m_Name
       value: cerveza (2)
@@ -1051,6 +1059,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Size.x
+      value: 17.911674
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.6829438
+      objectReference: {fileID: 0}
     - target: {fileID: 3945421711876293305, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
       propertyPath: m_Name
       value: cerveza
@@ -2553,6 +2569,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Size.x
+      value: 17.96402
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.65219307
+      objectReference: {fileID: 0}
     - target: {fileID: 3945421711876293305, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
       propertyPath: m_Name
       value: cerveza (1)
@@ -2812,6 +2836,10 @@ PrefabInstance:
     - target: {fileID: 8792866389128308420, guid: 407d88a396b5cf44080ff6bd1cb063dc, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966600568401910330, guid: 407d88a396b5cf44080ff6bd1cb063dc, type: 3}
+      propertyPath: velocidad
+      value: 800
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3188,6 +3216,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Size.x
+      value: 17.828953
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035143629595905327, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.16325998
+      objectReference: {fileID: 0}
     - target: {fileID: 3945421711876293305, guid: aa7c4e8180ce06c4fb0baea9630b9d0e, type: 3}
       propertyPath: m_Name
       value: cerveza (3)
