@@ -33,10 +33,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void AnimaAttake()
-    {
-        // Placeholder
-    }
+    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class EnemyGfx : MonoBehaviour
+public class Jefe : MonoBehaviour
 {
     public AIPath aipath;
     public Animator animatorPiernas;
@@ -40,13 +40,13 @@ public class EnemyGfx : MonoBehaviour
                 {
                     //flipder
                     gameObject.GetComponent<SpriteRenderer>().flipX = true;
-                    PlayAnimation("Mov_Izq_Sup_Esbirro", "Mov_Izq_Inf_Zombie");
+                    PlayAnimation("Mov_Sup_Izq", "Mov_Izq_Inf_Zombie");
                 }
                 else
                 {
                     gameObject.GetComponent<SpriteRenderer>().flipX = false;
 
-                    PlayAnimation("Mov_Izq_Sup_Esbirro", "Mov_Izq_Inf_Zombie");
+                    PlayAnimation("Mov_Sup_Izq", "Mov_Izq_Inf_Zombie");
                 }
             }
             else
@@ -57,7 +57,7 @@ public class EnemyGfx : MonoBehaviour
                 }
                 else
                 {
-                    PlayAnimation("Mov_Frontal_Sup_Esbirro", "Mov_Frontal_Inf_Esbirro");
+                    PlayAnimation("Mov_Frontal_Jefe", "Mov_Frontal_Inf_Esbirro");
                 }
             }
         }
@@ -77,11 +77,11 @@ public class EnemyGfx : MonoBehaviour
             if (ultimaDireccion.x > 0)
             {
                 gameObject.GetComponent<SpriteRenderer>().flipX = true;
-                animatorTorso.Play("Ataque_Izq_Sup_Esbirro");
+                animatorTorso.Play("Ataque_Sup_Izq");
             }
             else
             {
-                animatorTorso.Play("Ataque_Izq_Sup_Esbirro");
+                animatorTorso.Play("Ataque_Sup_Izq");
             }
         }
         else
@@ -92,7 +92,7 @@ public class EnemyGfx : MonoBehaviour
             }
             else
             {
-                animatorTorso.Play("Ataque_Frontal_Esbirro");
+                animatorTorso.Play("Ataque_Frontal_Sup_Jefe");
             }
             
         }

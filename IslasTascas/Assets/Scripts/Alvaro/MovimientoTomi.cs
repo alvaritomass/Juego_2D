@@ -46,7 +46,7 @@ public class MovimientoTomi : MonoBehaviour
     {
         moveX = Input.GetAxis("Horizontal");
         moveY = Input.GetAxis("Vertical");
-        rb.velocity = new Vector2(moveX, moveY).normalized * velocidad * Time.deltaTime;
+        rb.velocity = new Vector2(moveX, moveY).normalized * velocidad;
 
         if (moveX != 0 || moveY != 0)
         {
@@ -64,50 +64,50 @@ public class MovimientoTomi : MonoBehaviour
             {
                 if (moveX > 0)
                 {
-                    PlayAnimation("WalkRight", "WalkRight");
+                    PlayAnimation("Tomi_Sup_Dr", "Tomi_Inf_dr");
                 }
                 else
                 {
-                    PlayAnimation("WalkLeft", "WalkLeft");
+                    PlayAnimation("Tomi_Sup_Izq", "Tomi_Inf_Izq");
                 }
             }
             else
             {
                 if (moveY > 0)
                 {
-                    PlayAnimation("WalkUp", "WalkUp");
+                    PlayAnimation("Tomi_Sup_Espaldas", "Tomi_INf_Trasero");
                 }
                 else
                 {
-                    PlayAnimation("WalkDown", "WalkDown");
+                    PlayAnimation("Tomi_Sup_Frontal", "Tomi_Frontal");
                 }
             }
         }
         else
         {
-            if (ultimaDireccion == Vector2.up)
+            if (ultimaDireccion == Vector2.up && !isMoving)
             {
-                PlayAnimation("IdleUp", "IdleUp");
+                PlayAnimation("Tomi__Resposo_Sup", "Tomi_Inf_Resposo_Trasero");
             }
-            else if (ultimaDireccion == Vector2.down)
+            else if (ultimaDireccion == Vector2.down && !isMoving)
             {
-                PlayAnimation("IdleDown", "IdleDown");
+                PlayAnimation("Tomi_Resposo_Sup", "Tomi_Inf_Resposo");
             }
-            else if (ultimaDireccion == Vector2.left)
+            else if (ultimaDireccion == Vector2.left && !isMoving)
             {
-                PlayAnimation("IdleLeft", "IdleLeft");
+                PlayAnimation("Tomi_Resposo_Sup_Izq", "Tomi_Inf_Resposo_Izq");
             }
-            else if (ultimaDireccion == Vector2.right)
+            else if (ultimaDireccion == Vector2.right && !isMoving)
             {
-                PlayAnimation("IdleRight", "IdleRight");
+                PlayAnimation("Tomi_Resposo_Der", "Tomi_Inf_Resposo_Dr");
             }
         }
     }
 
-    private void PlayAnimation(string piernasAnim, string torsoAnim)
+    private void PlayAnimation(string torsoanim, string piernasAnim)
     {
         animatorPiernas.Play(piernasAnim);
-        animatorTorso.Play(torsoAnim);
+        animatorTorso.Play(torsoanim);
     }
 
     private void Acciones()
@@ -125,11 +125,29 @@ public class MovimientoTomi : MonoBehaviour
 
     private void RealizarAtaque()
     {
-        animatorTorso.Play("Attack");
+        // Animaciones de ataque según la última dirección
+        if (Mathf.Abs(ultimaDireccion.x) > Mathf.Abs(ultimaDireccion.y))
+        {
+            if (ultimaDireccion.x > 0)
+            {
+                animatorTorso.Play("Ataque_Final_DrDr");
+            }
+            else
+            {
+                animatorTorso.Play("Ataque_Final_Izq");
+            }
+        }
+        else
+        {
+            
+            
+         animatorTorso.Play("Ataque_Final_Frontal");
+            
+        }
+
         canAttack = false;
         Invoke(nameof(ResetAttack), tiempoA);
     }
-
     private void RealizarDisparo()
     {
         Vector3 posicionRaton = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -159,7 +177,7 @@ public class MovimientoTomi : MonoBehaviour
         switch (collision.gameObject.tag)
         {
             case "Borraxo":
-                collision.gameObject.GetComponent<Enemy>().AnimaAttake();
+                collision.gameObject.GetComponent<EnemyGfx>().AnimaAttake();
                 gm.PerderVida();
                 break;
 

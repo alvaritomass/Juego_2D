@@ -515,7 +515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   damageCooldown: 0.5
-  player: {fileID: 0}
+  player: {fileID: 1727736752}
 --- !u!114 &534322418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -529,6 +529,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aipath: {fileID: 1953875319}
+  animatorPiernas: {fileID: 0}
+  animatorTorso: {fileID: 0}
+  rb: {fileID: 0}
 --- !u!1 &549680009
 GameObject:
   m_ObjectHideFlags: 0
@@ -2271,6 +2274,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.33
       objectReference: {fileID: 0}
+    - target: {fileID: 6180100196129610404, guid: 407d88a396b5cf44080ff6bd1cb063dc, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8792866389128308420, guid: 407d88a396b5cf44080ff6bd1cb063dc, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2281,7 +2288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8966600568401910330, guid: 407d88a396b5cf44080ff6bd1cb063dc, type: 3}
       propertyPath: velocidad
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8966600568401910330, guid: 407d88a396b5cf44080ff6bd1cb063dc, type: 3}
       propertyPath: puntoDisparo

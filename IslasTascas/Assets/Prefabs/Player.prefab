@@ -81,7 +81,7 @@ SpriteRenderer:
   m_Size: {x: 10.180337, y: 19.83}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2186771524016728893
@@ -194,7 +194,6 @@ GameObject:
   - component: {fileID: 8966600568401910330}
   - component: {fileID: 4890521800295377789}
   - component: {fileID: 1304039202569113677}
-  - component: {fileID: 6180100196129610404}
   - component: {fileID: 6298432917544560454}
   - component: {fileID: 5146794618399936924}
   m_Layer: 0
@@ -236,12 +235,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 400
   rb: {fileID: 1304039202569113677}
+  animatorPiernas: {fileID: 0}
+  animatorTorso: {fileID: 0}
   tiempoA: 1
   tiempoS: 1
-  damage: 10
   proyectilPrefab: {fileID: 4709569626700733483, guid: cd3b34253ca16f649a3f8f6ceaafea1f, type: 3}
-  origenDisparo: {fileID: 0}
   velocidadDisparo: 5
+  damage: 10
 --- !u!212 &4890521800295377789
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -291,7 +291,7 @@ SpriteRenderer:
   m_Size: {x: 6.12, y: 3.89}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &1304039202569113677
@@ -321,27 +321,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!95 &6180100196129610404
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8792866389128308420}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ed01d9a8186998c47934fe4564b0d00d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!61 &6298432917544560454
 BoxCollider2D:
   m_ObjectHideFlags: 0
