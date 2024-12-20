@@ -85,24 +85,26 @@ public class MovimientoTomi : MonoBehaviour
         }
         else
         {
-            if (ultimaDireccion == Vector2.up && !isMoving)
+            // Aquí, solo usamos la dirección para el reposo
+            if (ultimaDireccion == Vector2.up)
             {
                 PlayAnimation("Tomi__Resposo_Sup", "Tomi_Inf_Resposo_Trasero");
             }
-            else if (ultimaDireccion == Vector2.down && !isMoving)
+            else if (ultimaDireccion == Vector2.down)
             {
                 PlayAnimation("Tomi_Resposo_Sup", "Tomi_Inf_Resposo");
             }
-            else if (ultimaDireccion == Vector2.left && !isMoving)
+            else if (ultimaDireccion == Vector2.left)
             {
                 PlayAnimation("Tomi_Resposo_Sup_Izq", "Tomi_Inf_Resposo_Izq");
             }
-            else if (ultimaDireccion == Vector2.right && !isMoving)
+            else if (ultimaDireccion == Vector2.right)
             {
                 PlayAnimation("Tomi_Resposo_Der", "Tomi_Inf_Resposo_Dr");
             }
         }
     }
+
 
     private void PlayAnimation(string torsoanim, string piernasAnim)
     {
