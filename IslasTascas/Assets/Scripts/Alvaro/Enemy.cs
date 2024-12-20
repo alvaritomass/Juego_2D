@@ -4,52 +4,69 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [Header("Enemy Settings")]
     public int health = 100;
+    public float damageCooldown = 0.5f;
+
+    [Header("Player Reference")]
     public GameObject player;
-    public float tiempoD = 0.5f;
-    bool canHurt = true;
+
+    private bool canHurt = true;
+
+    public delegate void EnemigoDestruidoHandler();
+    public static event EnemigoDestruidoHandler OnEnemigoDestruido;
+
+    
+
+    private void OnDestroy()
+    {
+        OnEnemigoDestruido?.Invoke();
+    }
+
     public void TakeDamage(int damage)
     {
-        health = -damage;
+        health -= damage;
 
         if (health <= 0)
         {
             Destroy(gameObject);
         }
-
-    }
-
-    private void Update()
-    {
-        
     }
 
     public void AnimaAttake()
     {
-        //animacion de enemigo pegando
+        // Placeholder
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //cuando el enemigo entra en las áreas area y botella perdera vida
-        if(collision.gameObject.tag == "Area")
+        if (!canHurt) return;
+
+        switch (collision.gameObject.tag)
         {
-            if(Input.GetMouseButton(0))
-            {
-                TakeDamage(20);
-                canHurt = false;
-                Invoke("EsperaDaño", tiempoD);
-            }
-            
-        }
-        if(collision.gameObject.tag == "Botella")
-        {
-            TakeDamage(30);
-            canHurt = false;
-            Invoke("EsperaDaño", tiempoD);
+            case "Area":
+                if (Input.GetMouseButton(0))
+                {
+                    TakeDamage(20);
+                    TriggerDamageCooldown();
+                }
+                break;
+
+            case "Botella":
+                TakeDamage(30);
+                Debug.Log(health);
+                TriggerDamageCooldown();
+                break;
         }
     }
-    public void EsperaDaño()
+
+    private void TriggerDamageCooldown()
+    {
+        canHurt = false;
+        Invoke(nameof(ResetDamageCooldown), damageCooldown);
+    }
+
+    private void ResetDamageCooldown()
     {
         canHurt = true;
     }

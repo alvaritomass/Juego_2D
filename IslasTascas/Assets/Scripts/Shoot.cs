@@ -28,9 +28,6 @@ public class Shoot : MonoBehaviour
             // Destruir el proyectil después del impacto
             Destroy(gameObject);
         }
-        else if (!other.CompareTag("Player")) // Evitar destruirse al chocar con el jugador
-        {
-            Destroy(gameObject);
-        }
+        
     }
 }
