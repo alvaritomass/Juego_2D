@@ -185,8 +185,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 1500
   rb: {fileID: 49208055}
+  animatorPiernas: {fileID: 0}
+  animatorTorso: {fileID: 0}
   tiempoA: 1
   tiempoS: 1
+  proyectilPrefab: {fileID: 0}
+  velocidadDisparo: 5
   damage: 10
 --- !u!212 &49208057
 SpriteRenderer:
@@ -653,8 +657,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  damageCooldown: 0.5
   player: {fileID: 49208054}
-  tiempoD: 0.5
 --- !u!114 &534322418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -668,6 +672,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aipath: {fileID: 1953875319}
+  animatorPiernas: {fileID: 0}
+  animatorTorso: {fileID: 0}
+  rb: {fileID: 0}
 --- !u!1 &549680009
 GameObject:
   m_ObjectHideFlags: 0
@@ -2400,8 +2407,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  damageCooldown: 0.5
   player: {fileID: 0}
-  tiempoD: 0.5
 --- !u!1 &1968486387
 GameObject:
   m_ObjectHideFlags: 0
@@ -2430,7 +2437,7 @@ Transform:
   m_GameObject: {fileID: 1968486387}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0219, y: -0.0455, z: 0}
+  m_LocalPosition: {x: 0.0219, y: 1.71, z: 0}
   m_LocalScale: {x: 0.9559585, y: 0.90905356, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2449,8 +2456,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  damageCooldown: 0.5
   player: {fileID: 49208054}
-  tiempoD: 0.5
 --- !u!61 &1968486391
 BoxCollider2D:
   m_ObjectHideFlags: 0

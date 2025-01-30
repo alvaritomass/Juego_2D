@@ -2202,6 +2202,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 353296587617195253, guid: 407d88a396b5cf44080ff6bd1cb063dc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.059999943
+      objectReference: {fileID: 0}
+    - target: {fileID: 353296587617195253, guid: 407d88a396b5cf44080ff6bd1cb063dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.24400091
+      objectReference: {fileID: 0}
+    - target: {fileID: 529791793921216724, guid: 407d88a396b5cf44080ff6bd1cb063dc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 529791793921216724, guid: 407d88a396b5cf44080ff6bd1cb063dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.22
+      objectReference: {fileID: 0}
     - target: {fileID: 1681213540390302433, guid: 407d88a396b5cf44080ff6bd1cb063dc, type: 3}
       propertyPath: m_FlipX
       value: 0

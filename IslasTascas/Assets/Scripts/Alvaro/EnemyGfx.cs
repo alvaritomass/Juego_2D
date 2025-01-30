@@ -11,16 +11,19 @@ public class EnemyGfx : MonoBehaviour
     public Animator animatorTorso;
     public Rigidbody2D rb;
     private Vector2 ultimaDireccion = Vector2.down;
+    
 
     private void Update()
     {
+        Animations();
+
         if (aipath.desiredVelocity.x >= 0.01f)
         {
-            transform.localScale = new Vector3 (-1f, 1f, 1f);
+            transform.localScale = new Vector3 (transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }
         else if (aipath.desiredVelocity.x <= -0.01f)
         {
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y, transform.localScale.z);
         }
         if (rb.velocity.x != 0 || rb.velocity.y != 0)
         {
